@@ -1,0 +1,85 @@
+ul#tabs {
+    list-style-type: none;
+    margin: 30px 0 0 0;
+    padding: 0 0 0.3em 0;
+}
+
+/* ul#tabs li { display: inline;} */
+ul#tabs li a {
+    color: #42454a;
+    background-color: #fcb1a6;
+    border: 2px solid #5d2a42;
+    text-decoration: none;
+    padding-bottom: 4%;
+    padding-top: 4%;
+
+    display: inline-block;
+    width: 98%;
+}
+
+ul#tabs li a:hover {
+    background-color: #fff9ec;
+}
+
+ul#tabs li a.selected {
+    color: #000;
+    background-color: #fff9ec;
+    font-weight: bold;
+}
+
+div.tabContent {
+    border: 2px solid #5d2a42;
+    padding: 0.5em;
+    background-color: #fff9ec;
+    min-height: 650px;
+}
+
+div.tabContent.hide {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    background-color: #fff9ec;
+}
+
+.city-input {
+    overflow: hidden;
+    padding-right: .5em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff9ec;
+    border: 2px solid #5d2a42;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.header {
+    height: 75px;
+    background-color: #fff9ec;
+    margin-top: 0%;
+    border: 2px solid #5d2a42;
+}
+
+body {
+    background-color: #fb6376;
+}
+
+.tab {
+    width: 16.399%;
+    display: inline-block;
+    text-align: center;
+    height: 35px;
+}
+
+.round {
+    width: 20%;
+    border-radius: 15px;
+    border: 1px #5d2a42 solid;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}

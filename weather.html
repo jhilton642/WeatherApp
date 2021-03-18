@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/weather.css">
+    <title>Weather Forecast</title>
+</head>
+
+<body onload="init(); getDayOfWeek();">
+    <div class="header">
+        <h1>Weather</h1>
+    </div>
+    <br>
+    <div class="city-input">
+        <label for="city">City:</label>
+        <input type="text" id="city" value=' Fort Worth' class="round">
+        <button id="getWeather">Get Weather</button>
+    </div>
+    <ul id="tabs">
+        <li class="tab"><a href="#day1" class="tablink"> Today </a></li>
+        <li class="tab"><a href="#day2" class="tablink"><span id="weekDay2"></span></a></li>
+        <li class="tab"><a href="#day3" class="tablink"><span id="weekDay3"></span></a></li>
+        <li class="tab"><a href="#day4" class="tablink"><span id="weekDay4"></span></a></li>
+        <li class="tab"><a href="#day5" class="tablink"><span id="weekDay5"></span></a></li>
+        <li class="tab"><a href="#day6" class="tablink"><span id="weekDay6"></span></a></li>
+    </ul>
+    <div class="tabContent" id="day1"></div>
+    <div class="tabContent" id="day2"></div>
+    <div class="tabContent" id="day3"></div>
+    <div class="tabContent" id="day4"></div>
+    <div class="tabContent" id="day5"></div>
+    <div class="tabContent" id="day6"></div>
+</body>
+<script src="js/weather.js"></script>
+
+</html>
